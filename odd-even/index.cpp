@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     cout << "Odd-Even using Bits manipulation" << endl;
-    int num = 5;
+    int num;
     cout << "Enter the number which needs to be checked" << endl;
     cin >> num;
     if (num & 1)
